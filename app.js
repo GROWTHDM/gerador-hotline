@@ -32,9 +32,9 @@ btn.addEventListener('click', function(e){
 const sliderRunning = document.querySelector('.slider-img');
 
 btn.addEventListener('click', () => {
-    console.log(sliderRunning.style.animationPlayState);
-    if (sliderRunning.style.animationPlayState === 'paused') {
-        sliderRunning.style.animationPlayState = 'running';
+    
+    if (sliderRunning.style.animationPlayState === 'running') {
+        sliderRunning.style.animationPlayState = 'paused';
 
     } else {
         sliderRunning.style.animationPlayState = 'running';
@@ -49,9 +49,9 @@ btn.addEventListener('click', () => {
 const sliderRun = document.querySelector('.slider-Img');
 
 btn.addEventListener('click', () => {
-    console.log(sliderRun.style.animationPlayState);
-    if (sliderRun.style.animationPlayState === 'paused') {
-        sliderRun.style.animationPlayState = 'running';
+    
+    if (sliderRun.style.animationPlayState === 'running') {
+        sliderRun.style.animationPlayState = 'paused';
 
     } else {
         sliderRun.style.animationPlayState = 'running';
