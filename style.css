@@ -97,7 +97,7 @@ h1{
 
 .fa-caret-down{
     position: relative;
-    top: 15%;
+    top: 85px;
     left: 47%;
     z-index: 999;
 }
@@ -151,8 +151,8 @@ iframe{
 .botaoGerador{
     position: relative;
     top: 235px;
-    left: 53px;
-    width: 233px;
+    left: 15px;
+    width: 307px;
     padding: 10px;
     background: linear-gradient(to bottom, rgb(118, 190, 76), rgb(11, 143, 11));
     cursor: pointer;
@@ -166,8 +166,8 @@ iframe{
 .botaoTurbo{
     position: relative;
     background: linear-gradient(to bottom, rgb(236, 10, 10), rgb(169, 52, 52));
-    top: 30%;
-    right: 250px;
+    top: 165px;
+    right: 300px;
     border-radius: 4px;
     padding: 15px;
     box-shadow: 1px 1px 3px #ff0000;
@@ -176,8 +176,8 @@ iframe{
 
 .textoTurbo{
     position: relative;
-    top: 31%;
-    right: 240px;
+    top: 140px;
+    right: -85px;
     color: white;
     font-size: 18px;
 }
@@ -186,4 +186,5 @@ iframe{
     0% {left: 0;}
     100% {left: -201%;}
 }
+
 
