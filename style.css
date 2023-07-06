@@ -150,8 +150,8 @@ iframe{
 
 .botaoGerador{
     position: relative;
-    top: 235px;
-    left: 15px;
+    top: 230px;
+    left: 18px;
     width: 307px;
     padding: 10px;
     background: linear-gradient(to bottom, rgb(118, 190, 76), rgb(11, 143, 11));
