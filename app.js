@@ -7,7 +7,7 @@ let countdownTimer = null;
 const atualizarBotao = () => {
     countdown --
 
-    btn.innerText = 'Gerando Sinal';
+    btn.innerText = 'Gerando Sinal' + ' ' + '(' + countdown + ')';
     if (countdown === 0) {
         finishCountdownTimer();
     }
